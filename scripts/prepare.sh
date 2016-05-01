@@ -1,6 +1,6 @@
 #!/bin/bash
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}"  )" && pwd  )"
-cd DIR
+cd $DIR
 
 # change the sources.list
 sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak

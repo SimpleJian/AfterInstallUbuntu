@@ -1,20 +1,17 @@
 #!/bin/bash
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}"  )" && pwd  )"
-cd DIR
+cd $DIR
 
 # install network drivers for my thinkpad-E440(wifi: rtl8723b3, eth: 8168)
-sh install_rtl8723be.sh
-sh install_r8168.sh
+bash install_rtl8723be.sh
+bash install_r8168.sh
+
+# wait to connect to network
+echo "Press any key to continue if network are ready..."
+read -n1 -t5 any_key
 
 # install some requirements 
-sh prepare.sh
-
-# install zsh and ohmyzsh
-sudo apt-get install -y zsh
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-
-# install tmux
-sudo apt-get install -y tmux
+bash prepare.sh
 
 # install python packages
 sudo pip install pandas
@@ -36,8 +33,15 @@ sudo apt-get install -y sublime-text
 # install and configure vim
 sudo apt-get install -y vim-gtk
 cp ../vim/.vimrc ~/.vimrc
-mkdir ~/.vim && cp ../vim/colors/ ~/.vim
+mkdir ~/.vim && cp -r ../vim/colors/ ~/.vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+# install zsh and ohmyzsh
+sudo apt-get install -y zsh
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+# install tmux
+sudo apt-get install -y tmux
 
 
 

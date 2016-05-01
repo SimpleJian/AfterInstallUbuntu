@@ -1,0 +1,1 @@
+cmd_/home/lj/Others/r8168-8.038.00/src/r8168.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.13.0-85-generic/scripts/module-common.lds --build-id  -o /home/lj/Others/r8168-8.038.00/src/r8168.ko /home/lj/Others/r8168-8.038.00/src/r8168.o /home/lj/Others/r8168-8.038.00/src/r8168.mod.o

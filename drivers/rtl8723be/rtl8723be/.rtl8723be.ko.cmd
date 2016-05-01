@@ -1,0 +1,1 @@
+cmd_/home/lj/Others/driver/rtl8723be/rtl8723be.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.13.0-85-generic/scripts/module-common.lds --build-id  -o /home/lj/Others/driver/rtl8723be/rtl8723be.ko /home/lj/Others/driver/rtl8723be/rtl8723be.o /home/lj/Others/driver/rtl8723be/rtl8723be.mod.o

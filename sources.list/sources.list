@@ -1,0 +1,15 @@
+#------------------------------------------------------------------------------#
+#                            OFFICIAL UBUNTU REPOS                             #
+#------------------------------------------------------------------------------#
+
+
+###### Ubuntu Main Repos
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty main restricted universe multiverse 
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty main restricted universe multiverse 
+
+###### Ubuntu Update Repos
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty-security main restricted universe multiverse 
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty-updates main restricted universe multiverse 
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-security main restricted universe multiverse 
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-updates main restricted universe multiverse 
+

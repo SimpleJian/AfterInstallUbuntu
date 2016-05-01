@@ -1,0 +1,1 @@
+cmd_/home/lj/Others/driver/btcoexist/btcoexist.o := ld -m elf_x86_64   -r -o /home/lj/Others/driver/btcoexist/btcoexist.o /home/lj/Others/driver/btcoexist/HalBtc8192e2Ant.o /home/lj/Others/driver/btcoexist/HalBtc8723b1Ant.o /home/lj/Others/driver/btcoexist/HalBtc8723b2Ant.o /home/lj/Others/driver/btcoexist/HalBtcOutSrc.o /home/lj/Others/driver/btcoexist/rtl_btc.o 

@@ -1,0 +1,422 @@
+-------------------------------
+2014年 06月 21日 星期六 20:28:23 CST
+make -C src/ clean
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-24-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src clean
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-24-generic'
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-24-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C src/ modules
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-24-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src modules
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-24-generic'
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168_n.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168_asf.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/rtl_eeprom.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/rtltool.o
+  LD [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/lijian/Downloads/r8168-8.038.00/src/r8168.mod.o
+  LD [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168.ko
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-24-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C src/ install
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-24-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src INSTALL_MOD_DIR=kernel/drivers/net/ethernet/realtek modules_install
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-24-generic'
+  INSTALL /home/lijian/Downloads/r8168-8.038.00/src/r8168.ko
+  DEPMOD  3.13.0-24-generic
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-24-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+-------------------------------
+2014年 06月 27日 星期五 16:33:20 CST
+make -C src/ clean
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-30-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src clean
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-30-generic'
+  CLEAN   /home/lijian/Downloads/r8168-8.038.00/src/.tmp_versions
+  CLEAN   /home/lijian/Downloads/r8168-8.038.00/src/Module.symvers
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-30-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C src/ modules
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-30-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src modules
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-30-generic'
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168_n.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168_asf.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/rtl_eeprom.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/rtltool.o
+  LD [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/lijian/Downloads/r8168-8.038.00/src/r8168.mod.o
+  LD [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168.ko
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-30-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C src/ install
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-30-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src INSTALL_MOD_DIR=kernel/drivers/net/ethernet/realtek modules_install
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-30-generic'
+  INSTALL /home/lijian/Downloads/r8168-8.038.00/src/r8168.ko
+  DEPMOD  3.13.0-30-generic
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-30-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+-------------------------------
+2014年 07月 07日 星期一 09:39:30 CST
+make -C src/ clean
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-30-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src clean
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-30-generic'
+  CLEAN   /home/lijian/Downloads/r8168-8.038.00/src/.tmp_versions
+  CLEAN   /home/lijian/Downloads/r8168-8.038.00/src/Module.symvers
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-30-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C src/ modules
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-30-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src modules
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-30-generic'
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168_n.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168_asf.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/rtl_eeprom.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/rtltool.o
+  LD [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/lijian/Downloads/r8168-8.038.00/src/r8168.mod.o
+  LD [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168.ko
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-30-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C src/ install
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-30-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src INSTALL_MOD_DIR=kernel/drivers/net/ethernet/realtek modules_install
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-30-generic'
+  INSTALL /home/lijian/Downloads/r8168-8.038.00/src/r8168.ko
+  DEPMOD  3.13.0-30-generic
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-30-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+-------------------------------
+2014年 07月 18日 星期五 08:38:41 CST
+make -C src/ clean
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-32-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src clean
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-32-generic'
+  CLEAN   /home/lijian/Downloads/r8168-8.038.00/src/.tmp_versions
+  CLEAN   /home/lijian/Downloads/r8168-8.038.00/src/Module.symvers
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-32-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C src/ modules
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-32-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src modules
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-32-generic'
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168_n.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168_asf.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/rtl_eeprom.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/rtltool.o
+  LD [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/lijian/Downloads/r8168-8.038.00/src/r8168.mod.o
+  LD [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168.ko
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-32-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C src/ install
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-32-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src INSTALL_MOD_DIR=kernel/drivers/net/ethernet/realtek modules_install
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-32-generic'
+  INSTALL /home/lijian/Downloads/r8168-8.038.00/src/r8168.ko
+  DEPMOD  3.13.0-32-generic
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-32-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+-------------------------------
+2014年 08月 17日 星期日 08:21:16 CST
+make -C src/ clean
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-24-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src clean
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-24-generic'
+  CLEAN   /home/lijian/Downloads/r8168-8.038.00/src/.tmp_versions
+  CLEAN   /home/lijian/Downloads/r8168-8.038.00/src/Module.symvers
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-24-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C src/ modules
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-24-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src modules
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-24-generic'
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168_n.o
+-------------------------------
+2014年 08月 17日 星期日 08:21:36 CST
+make -C src/ clean
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-24-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src clean
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-24-generic'
+  CLEAN   /home/lijian/Downloads/r8168-8.038.00/src/.tmp_versions
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-24-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C src/ modules
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-24-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src modules
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-24-generic'
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168_n.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168_asf.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/rtl_eeprom.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/rtltool.o
+  LD [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/lijian/Downloads/r8168-8.038.00/src/r8168.mod.o
+  LD [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168.ko
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-24-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C src/ install
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-24-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src INSTALL_MOD_DIR=kernel/drivers/net/ethernet/realtek modules_install
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-24-generic'
+  INSTALL /home/lijian/Downloads/r8168-8.038.00/src/r8168.ko
+  DEPMOD  3.13.0-24-generic
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-24-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+-------------------------------
+2014年 09月 04日 星期四 15:44:21 CST
+make -C src/ clean
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-34-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src clean
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-34-generic'
+  CLEAN   /home/lijian/Downloads/r8168-8.038.00/src/.tmp_versions
+  CLEAN   /home/lijian/Downloads/r8168-8.038.00/src/Module.symvers
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-34-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C src/ modules
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-34-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src modules
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-34-generic'
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168_n.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168_asf.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/rtl_eeprom.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/rtltool.o
+  LD [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/lijian/Downloads/r8168-8.038.00/src/r8168.mod.o
+  LD [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168.ko
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-34-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C src/ install
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-34-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src INSTALL_MOD_DIR=kernel/drivers/net/ethernet/realtek modules_install
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-34-generic'
+  INSTALL /home/lijian/Downloads/r8168-8.038.00/src/r8168.ko
+  DEPMOD  3.13.0-34-generic
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-34-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+-------------------------------
+2014年 09月 04日 星期四 16:56:40 CST
+make -C src/ clean
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-35-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src clean
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-35-generic'
+  CLEAN   /home/lijian/Downloads/r8168-8.038.00/src/.tmp_versions
+  CLEAN   /home/lijian/Downloads/r8168-8.038.00/src/Module.symvers
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-35-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C src/ modules
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-35-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src modules
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-35-generic'
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168_n.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168_asf.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/rtl_eeprom.o
+  CC [M]  /home/lijian/Downloads/r8168-8.038.00/src/rtltool.o
+  LD [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/lijian/Downloads/r8168-8.038.00/src/r8168.mod.o
+  LD [M]  /home/lijian/Downloads/r8168-8.038.00/src/r8168.ko
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-35-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C src/ install
+make[1]: Entering directory `/home/lijian/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-35-generic/build SUBDIRS=/home/lijian/Downloads/r8168-8.038.00/src INSTALL_MOD_DIR=kernel/drivers/net/ethernet/realtek modules_install
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-35-generic'
+  INSTALL /home/lijian/Downloads/r8168-8.038.00/src/r8168.ko
+  DEPMOD  3.13.0-35-generic
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-35-generic'
+make[1]: Leaving directory `/home/lijian/Downloads/r8168-8.038.00/src'
+-------------------------------
+2015年 03月 29日 星期日 21:03:02 CST
+make -C src/ clean
+make[1]: Entering directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-24-generic/build SUBDIRS=/home/lj/Downloads/r8168-8.038.00/src clean
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-24-generic'
+  CLEAN   /home/lj/Downloads/r8168-8.038.00/src/.tmp_versions
+  CLEAN   /home/lj/Downloads/r8168-8.038.00/src/Module.symvers
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-24-generic'
+make[1]: Leaving directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C src/ modules
+make[1]: Entering directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-24-generic/build SUBDIRS=/home/lj/Downloads/r8168-8.038.00/src modules
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-24-generic'
+  CC [M]  /home/lj/Downloads/r8168-8.038.00/src/r8168_n.o
+  CC [M]  /home/lj/Downloads/r8168-8.038.00/src/r8168_asf.o
+  CC [M]  /home/lj/Downloads/r8168-8.038.00/src/rtl_eeprom.o
+  CC [M]  /home/lj/Downloads/r8168-8.038.00/src/rtltool.o
+  LD [M]  /home/lj/Downloads/r8168-8.038.00/src/r8168.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/lj/Downloads/r8168-8.038.00/src/r8168.mod.o
+  LD [M]  /home/lj/Downloads/r8168-8.038.00/src/r8168.ko
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-24-generic'
+make[1]: Leaving directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C src/ install
+make[1]: Entering directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-24-generic/build SUBDIRS=/home/lj/Downloads/r8168-8.038.00/src INSTALL_MOD_DIR=kernel/drivers/net/ethernet/realtek modules_install
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-24-generic'
+  INSTALL /home/lj/Downloads/r8168-8.038.00/src/r8168.ko
+  DEPMOD  3.13.0-24-generic
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-24-generic'
+make[1]: Leaving directory `/home/lj/Downloads/r8168-8.038.00/src'
+-------------------------------
+2015年 04月 12日 星期日 23:15:24 CST
+make -C src/ clean
+make[1]: Entering directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-48-generic/build SUBDIRS=/home/lj/Downloads/r8168-8.038.00/src clean
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-48-generic'
+  CLEAN   /home/lj/Downloads/r8168-8.038.00/src/.tmp_versions
+  CLEAN   /home/lj/Downloads/r8168-8.038.00/src/Module.symvers
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-48-generic'
+make[1]: Leaving directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C src/ modules
+make[1]: Entering directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-48-generic/build SUBDIRS=/home/lj/Downloads/r8168-8.038.00/src modules
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-48-generic'
+  CC [M]  /home/lj/Downloads/r8168-8.038.00/src/r8168_n.o
+  CC [M]  /home/lj/Downloads/r8168-8.038.00/src/r8168_asf.o
+  CC [M]  /home/lj/Downloads/r8168-8.038.00/src/rtl_eeprom.o
+  CC [M]  /home/lj/Downloads/r8168-8.038.00/src/rtltool.o
+  LD [M]  /home/lj/Downloads/r8168-8.038.00/src/r8168.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/lj/Downloads/r8168-8.038.00/src/r8168.mod.o
+  LD [M]  /home/lj/Downloads/r8168-8.038.00/src/r8168.ko
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-48-generic'
+make[1]: Leaving directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C src/ install
+make[1]: Entering directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-48-generic/build SUBDIRS=/home/lj/Downloads/r8168-8.038.00/src INSTALL_MOD_DIR=kernel/drivers/net/ethernet/realtek modules_install
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-48-generic'
+  INSTALL /home/lj/Downloads/r8168-8.038.00/src/r8168.ko
+  DEPMOD  3.13.0-48-generic
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-48-generic'
+make[1]: Leaving directory `/home/lj/Downloads/r8168-8.038.00/src'
+-------------------------------
+2015年 04月 20日 星期一 22:07:21 CST
+make -C src/ clean
+make[1]: Entering directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-24-generic/build SUBDIRS=/home/lj/Downloads/r8168-8.038.00/src clean
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-24-generic'
+  CLEAN   /home/lj/Downloads/r8168-8.038.00/src/.tmp_versions
+  CLEAN   /home/lj/Downloads/r8168-8.038.00/src/Module.symvers
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-24-generic'
+make[1]: Leaving directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C src/ modules
+make[1]: Entering directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-24-generic/build SUBDIRS=/home/lj/Downloads/r8168-8.038.00/src modules
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-24-generic'
+  CC [M]  /home/lj/Downloads/r8168-8.038.00/src/r8168_n.o
+  CC [M]  /home/lj/Downloads/r8168-8.038.00/src/r8168_asf.o
+  CC [M]  /home/lj/Downloads/r8168-8.038.00/src/rtl_eeprom.o
+  CC [M]  /home/lj/Downloads/r8168-8.038.00/src/rtltool.o
+  LD [M]  /home/lj/Downloads/r8168-8.038.00/src/r8168.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/lj/Downloads/r8168-8.038.00/src/r8168.mod.o
+  LD [M]  /home/lj/Downloads/r8168-8.038.00/src/r8168.ko
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-24-generic'
+make[1]: Leaving directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C src/ install
+make[1]: Entering directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-24-generic/build SUBDIRS=/home/lj/Downloads/r8168-8.038.00/src INSTALL_MOD_DIR=kernel/drivers/net/ethernet/realtek modules_install
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-24-generic'
+  INSTALL /home/lj/Downloads/r8168-8.038.00/src/r8168.ko
+  DEPMOD  3.13.0-24-generic
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-24-generic'
+make[1]: Leaving directory `/home/lj/Downloads/r8168-8.038.00/src'
+-------------------------------
+2015年 05月 10日 星期日 16:48:20 CST
+make -C src/ clean
+make[1]: Entering directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-24-generic/build SUBDIRS=/home/lj/Downloads/r8168-8.038.00/src clean
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-24-generic'
+  CLEAN   /home/lj/Downloads/r8168-8.038.00/src/.tmp_versions
+  CLEAN   /home/lj/Downloads/r8168-8.038.00/src/Module.symvers
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-24-generic'
+make[1]: Leaving directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C src/ modules
+make[1]: Entering directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-24-generic/build SUBDIRS=/home/lj/Downloads/r8168-8.038.00/src modules
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-24-generic'
+  CC [M]  /home/lj/Downloads/r8168-8.038.00/src/r8168_n.o
+-------------------------------
+2015年 05月 10日 星期日 16:48:40 CST
+make -C src/ clean
+make[1]: Entering directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-24-generic/build SUBDIRS=/home/lj/Downloads/r8168-8.038.00/src clean
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-24-generic'
+  CLEAN   /home/lj/Downloads/r8168-8.038.00/src/.tmp_versions
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-24-generic'
+make[1]: Leaving directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C src/ modules
+make[1]: Entering directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-24-generic/build SUBDIRS=/home/lj/Downloads/r8168-8.038.00/src modules
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-24-generic'
+  CC [M]  /home/lj/Downloads/r8168-8.038.00/src/r8168_n.o
+  CC [M]  /home/lj/Downloads/r8168-8.038.00/src/r8168_asf.o
+  CC [M]  /home/lj/Downloads/r8168-8.038.00/src/rtl_eeprom.o
+  CC [M]  /home/lj/Downloads/r8168-8.038.00/src/rtltool.o
+  LD [M]  /home/lj/Downloads/r8168-8.038.00/src/r8168.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/lj/Downloads/r8168-8.038.00/src/r8168.mod.o
+  LD [M]  /home/lj/Downloads/r8168-8.038.00/src/r8168.ko
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-24-generic'
+make[1]: Leaving directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C src/ install
+make[1]: Entering directory `/home/lj/Downloads/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-24-generic/build SUBDIRS=/home/lj/Downloads/r8168-8.038.00/src INSTALL_MOD_DIR=kernel/drivers/net/ethernet/realtek modules_install
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-24-generic'
+  INSTALL /home/lj/Downloads/r8168-8.038.00/src/r8168.ko
+  DEPMOD  3.13.0-24-generic
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-24-generic'
+make[1]: Leaving directory `/home/lj/Downloads/r8168-8.038.00/src'
+-------------------------------
+2016年 04月 27日 星期三 17:06:13 CST
+make -C src/ clean
+make[1]: Entering directory `/home/lj/Others/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-85-generic/build SUBDIRS=/home/lj/Others/r8168-8.038.00/src clean
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-85-generic'
+  CLEAN   /home/lj/Others/r8168-8.038.00/src/.tmp_versions
+  CLEAN   /home/lj/Others/r8168-8.038.00/src/Module.symvers
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-85-generic'
+make[1]: Leaving directory `/home/lj/Others/r8168-8.038.00/src'
+make -C src/ modules
+make[1]: Entering directory `/home/lj/Others/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-85-generic/build SUBDIRS=/home/lj/Others/r8168-8.038.00/src modules
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-85-generic'
+  CC [M]  /home/lj/Others/r8168-8.038.00/src/r8168_n.o
+  CC [M]  /home/lj/Others/r8168-8.038.00/src/r8168_asf.o
+  CC [M]  /home/lj/Others/r8168-8.038.00/src/rtl_eeprom.o
+  CC [M]  /home/lj/Others/r8168-8.038.00/src/rtltool.o
+  LD [M]  /home/lj/Others/r8168-8.038.00/src/r8168.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/lj/Others/r8168-8.038.00/src/r8168.mod.o
+  LD [M]  /home/lj/Others/r8168-8.038.00/src/r8168.ko
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-85-generic'
+make[1]: Leaving directory `/home/lj/Others/r8168-8.038.00/src'
+make -C src/ install
+make[1]: Entering directory `/home/lj/Others/r8168-8.038.00/src'
+make -C /lib/modules/3.13.0-85-generic/build SUBDIRS=/home/lj/Others/r8168-8.038.00/src INSTALL_MOD_DIR=kernel/drivers/net/ethernet/realtek modules_install
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-85-generic'
+  INSTALL /home/lj/Others/r8168-8.038.00/src/r8168.ko
+  DEPMOD  3.13.0-85-generic
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-85-generic'
+make[1]: Leaving directory `/home/lj/Others/r8168-8.038.00/src'

@@ -1,0 +1,1 @@
+cmd_/home/lj/Others/driver/btcoexist/btcoexist.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.13.0-85-generic/scripts/module-common.lds --build-id  -o /home/lj/Others/driver/btcoexist/btcoexist.ko /home/lj/Others/driver/btcoexist/btcoexist.o /home/lj/Others/driver/btcoexist/btcoexist.mod.o

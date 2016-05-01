@@ -1,0 +1,2 @@
+/home/lj/Others/driver/rtl8723be/rtl8723be.ko
+/home/lj/Others/driver/rtl8723be/hw.o /home/lj/Others/driver/rtl8723be/table.o /home/lj/Others/driver/rtl8723be/sw.o /home/lj/Others/driver/rtl8723be/trx.o /home/lj/Others/driver/rtl8723be/led.o /home/lj/Others/driver/rtl8723be/fw.o /home/lj/Others/driver/rtl8723be/phy.o /home/lj/Others/driver/rtl8723be/rf.o /home/lj/Others/driver/rtl8723be/dm.o /home/lj/Others/driver/rtl8723be/pwrseq.o /home/lj/Others/driver/rtl8723be/pwrseqcmd.o /home/lj/Others/driver/rtl8723be/hal_btc.o /home/lj/Others/driver/rtl8723be/hal_bt_coexist.o

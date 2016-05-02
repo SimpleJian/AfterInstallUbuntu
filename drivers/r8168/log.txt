@@ -420,3 +420,36 @@ make[2]: Entering directory `/usr/src/linux-headers-3.13.0-85-generic'
   DEPMOD  3.13.0-85-generic
 make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-85-generic'
 make[1]: Leaving directory `/home/lj/Others/r8168-8.038.00/src'
+-------------------------------
+2016年 05月 01日 星期日 23:03:42 CST
+make -C src/ clean
+make[1]: Entering directory `/home/li/Workshop/AfterInstallUbuntu/drivers/r8168/src'
+make -C /lib/modules/3.13.0-86-generic/build SUBDIRS=/home/li/Workshop/AfterInstallUbuntu/drivers/r8168/src clean
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-86-generic'
+  CLEAN   /home/li/Workshop/AfterInstallUbuntu/drivers/r8168/src/.tmp_versions
+  CLEAN   /home/li/Workshop/AfterInstallUbuntu/drivers/r8168/src/Module.symvers
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-86-generic'
+make[1]: Leaving directory `/home/li/Workshop/AfterInstallUbuntu/drivers/r8168/src'
+make -C src/ modules
+make[1]: Entering directory `/home/li/Workshop/AfterInstallUbuntu/drivers/r8168/src'
+make -C /lib/modules/3.13.0-86-generic/build SUBDIRS=/home/li/Workshop/AfterInstallUbuntu/drivers/r8168/src modules
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-86-generic'
+  CC [M]  /home/li/Workshop/AfterInstallUbuntu/drivers/r8168/src/r8168_n.o
+  CC [M]  /home/li/Workshop/AfterInstallUbuntu/drivers/r8168/src/r8168_asf.o
+  CC [M]  /home/li/Workshop/AfterInstallUbuntu/drivers/r8168/src/rtl_eeprom.o
+  CC [M]  /home/li/Workshop/AfterInstallUbuntu/drivers/r8168/src/rtltool.o
+  LD [M]  /home/li/Workshop/AfterInstallUbuntu/drivers/r8168/src/r8168.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/li/Workshop/AfterInstallUbuntu/drivers/r8168/src/r8168.mod.o
+  LD [M]  /home/li/Workshop/AfterInstallUbuntu/drivers/r8168/src/r8168.ko
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-86-generic'
+make[1]: Leaving directory `/home/li/Workshop/AfterInstallUbuntu/drivers/r8168/src'
+make -C src/ install
+make[1]: Entering directory `/home/li/Workshop/AfterInstallUbuntu/drivers/r8168/src'
+make -C /lib/modules/3.13.0-86-generic/build SUBDIRS=/home/li/Workshop/AfterInstallUbuntu/drivers/r8168/src INSTALL_MOD_DIR=kernel/drivers/net/ethernet/realtek modules_install
+make[2]: Entering directory `/usr/src/linux-headers-3.13.0-86-generic'
+  INSTALL /home/li/Workshop/AfterInstallUbuntu/drivers/r8168/src/r8168.ko
+  DEPMOD  3.13.0-86-generic
+make[2]: Leaving directory `/usr/src/linux-headers-3.13.0-86-generic'
+make[1]: Leaving directory `/home/li/Workshop/AfterInstallUbuntu/drivers/r8168/src'

@@ -3,8 +3,8 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}"  )" && pwd  )"
 cd $DIR
 
 # install network drivers for my thinkpad-E440(wifi: rtl8723b3, eth: 8168)
-bash install_rtl8723be.sh
-bash install_r8168.sh
+# bash install_rtl8723be.sh
+# bash install_r8168.sh
 
 # wait to connect to network
 echo "Press any key to continue if network are ready..."
@@ -26,14 +26,14 @@ sudo pip install keras
 sudo apt-get install -y default-jre default-jdk
 
 # install sublime
-sudo add-apt-repository ppa:webupd8team/sublime-text-2
+sudo add-apt-repository -y ppa:webupd8team/sublime-text-2
 sudo apt-get update
 sudo apt-get install -y sublime-text
 
 # install and configure vim
 sudo apt-get install -y vim-gtk
 cp ../vim/.vimrc ~/.vimrc
-mkdir ~/.vim && cp -r ../vim/colors/ ~/.vim
+mkdir -p ~/.vim && cp -r ../vim/colors ~/.vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # install zsh and ohmyzsh
@@ -42,7 +42,5 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 
 # install tmux
 sudo apt-get install -y tmux
-
-
 
 cd -

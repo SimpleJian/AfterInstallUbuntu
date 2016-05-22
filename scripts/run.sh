@@ -23,7 +23,7 @@ sudo pip install pyyaml
 sudo pip install keras
 
 # install JRE
-sudo apt-get install -y default-jre default-jdk
+sudo apt-get install -y default-jre default-jdk icedtea-7-plugin
 
 # install sublime
 sudo add-apt-repository ppa:webupd8team/sublime-text-2
